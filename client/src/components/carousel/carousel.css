@@ -1,0 +1,62 @@
+/*---------------------------*/
+/*      Carousel Stuff       */
+/*---------------------------*/
+.carousel-item {
+    font-size: 1.125rem;
+    height: max(25em, 80vh);
+    background-color: #ffffff00;
+    text-anchor: middle;
+    color: white;
+}
+
+.carousel-inner {
+    background: url(../../img/earth_space.jpg) no-repeat center;
+    background-size: cover;
+    background-position: 50% 32%;
+}
+
+.carousel-custom {
+    position: absolute;
+    top: 36%;
+    right: 15%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-custom h1 {
+    font-size: 3rem;
+}
+
+.carousel-custom p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .carousel-custom {
+        top: 30%;
+    }
+
+    .carousel-custom h1 {
+        font-size: 2.5rem;
+    }
+    
+    .carousel-custom p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-custom {
+        top: 15%;
+    }
+
+    .carousel-custom h1 {
+        font-size: 2rem;
+    }
+    
+    .carousel-custom p {
+        font-size: 1.1rem;
+    }
+}
+/*---------------------------*/

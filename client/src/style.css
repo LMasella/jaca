@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/*---------------------------*/
+/* Bootstrap class overrides */
+/*---------------------------*/
+:root {
+    --bs-link-color: #2F3282;
+    --bs-link-hover-color: #0b5ed7;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #2F3282;
+}
+
+.btn-primary {
+    --bs-btn-bg: #2F3282;
+    --bs-btn-border-color: #2F3282;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #EB2527;
+    --bs-btn-border-color: #EB2527;
+    --bs-btn-hover-bg: #b4191c;
+    --bs-btn-hover-border-color: #a31719;
+}
+
+.role {
+    width: 9em;
+    height: 11.25em;
+    border: solid 4px black;
+    border-radius: 33%; 
+}
