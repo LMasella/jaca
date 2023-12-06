@@ -16,9 +16,6 @@ const About = props => {
                     <Role imgFile="Narada_Harris.jpg" name="Narada Harris" role="Co-Founder & CFO" />
                     <Role imgFile="Calder_Larsen.jpg" name="Calder Larsen" role="Co-Founder & COO" />
                     <Role imgFile="Julia_Lizeth_Larsen.jpg" name="Julia Lizeth Larsen" role="Co-Founder & CMO" />
-                    <Role imgFile="Maeve_Burke.jpg" name="Maeve Burke" role="Senior Marketing Director" />
-                    <Role imgFile="Shad_Michael_Ratliff.jpg" name="Shad Michael Ratliff" role="Applications Development Consultant" />
-                    <Role imgFile="Atzmon_Ghilai.jpg" name="Atzmon Ghilai" role="Senior Architect & Product Management: Eastern Peak" />
                 </div>
             </div>
             <div className="mt-3">
